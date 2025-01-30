@@ -1,0 +1,76 @@
+@import url('base.css');
+@import url('hero.css');
+@import url('responsive.css');
+@import url('cv.css');
+@import url('contact.css');
+@import url('footer.css');
+
+#projects {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f8f8;
+}
+
+#project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.project-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2em;
+}
+
+.project-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.project-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.project-item a:hover {
+    background: #555;
+}
+
+#about {
+    background: #ffffff;
+    padding: 60px 20px;
+}
+
+#projects {
+    background: #f8f9fa;
+    padding: 60px 20px;
+}

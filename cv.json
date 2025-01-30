@@ -1,0 +1,31 @@
+{
+    "education": [
+        {
+            "degree": "Studying Fullstack Javascript Developer",
+            "school": "Chas Academy",
+            "year": "2024 - 2026"
+        },
+        {
+            "degree": "technology and data information",
+            "school": "Rönninge Gymnasium",
+            "year": "2015-2018"
+        }
+    ],
+    "work": [
+        {
+            "position": "Säljare",
+            "company": "OKQ8",
+            "year": "2022 - 2024"
+        },
+        {
+            "position": "Lagerarbetare",
+            "company": "Scania CV AB",
+            "year": "2020 - 2022"
+        },
+        {
+            "position": "Ledare",
+            "company": "SLUK (Stockholm Läns Unga Katoliker)",
+            "year": "2018 - 2021"
+        }
+    ]
+}

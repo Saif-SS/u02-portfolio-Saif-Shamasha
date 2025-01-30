@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="module" src="src/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <img src="img/saif.jpg" alt="Profile Picture">
+        <h1>Saif Shamasha</h1>
+        <p>Web Developer | Designer | Creator</p>
+        <p class="hero-about">
+            I am passionate about creating intuitive and engaging web experiences. 
+            With a strong background in frontend development, I specialize in 
+            building interactive and dynamic websites using modern technologies.
+        </p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div id="cv-content">Loading CV...</div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="loading">Loading projects...</div>
+        <div id="project-list"></div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <textarea name="message" placeholder="Write your message here..." required></textarea>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>📧 Email: <a href="mailto:saif-shamasha@outlook.com">saif-shamasha@outlook.com</a></p>
+            <p>📞 Phone: <a href="tel:+46707330785">070-733 07 85</a></p>
+            <p>💻 GitHub: <a href="https://github.com/Saif-SS" target="_blank">Saif-SS</a></p>
+        </div>
+        <p>&copy; 2025 Saif Shamasha</p>
+    </footer>
+</body>
+</html>

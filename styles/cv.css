@@ -1,0 +1,45 @@
+/* CV Section Styling */
+#about {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f8f8;
+}
+
+#cv-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ändrat till 3 kolumner */
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cv-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cv-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.cv-item p {
+    font-size: 1em;
+    color: #555;
+}
